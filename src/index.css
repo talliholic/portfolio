@@ -1,0 +1,19 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}

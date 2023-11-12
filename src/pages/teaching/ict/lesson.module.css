@@ -1,0 +1,20 @@
+.lesson h1 {
+  background-color: steelblue;
+  color: white;
+  padding: 3px;
+}
+
+.button {
+  background-color: lightsteelblue;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  padding: 0 15px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  opacity: 0.7;
+}

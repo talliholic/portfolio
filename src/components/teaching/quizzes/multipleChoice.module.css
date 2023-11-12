@@ -1,0 +1,48 @@
+.quiz {
+  padding: 0 10px;
+}
+
+.quiz h2 {
+  border: 1px solid black;
+}
+
+.successful,
+.failure,
+.defaultFinalScore {
+  margin: 15px auto;
+  padding: 7px;
+  font-size: 20px;
+  text-align: center;
+  width: fit-content;
+  display: block;
+  border-radius: 20px;
+}
+
+.successful {
+  border: 1.5px dashed green;
+}
+
+.failure {
+  border: 1.5px dashed red;
+}
+
+.defaultFinalScore {
+  border: 1.5px dashed white;
+}
+
+.checkButton {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: seagreen;
+  border: 1px solid seagreen;
+  padding: 5px 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.checkButton:hover {
+  background-color: mediumseagreen;
+}
